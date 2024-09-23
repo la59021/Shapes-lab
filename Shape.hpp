@@ -1,10 +1,8 @@
-
-class Shape
-{
+class Shape {
     public:
         Shape();
-
-    protected:
+        double getArea();
+        double getPerimeter();
 
     private:
 };

@@ -5,8 +5,11 @@ class Circle : public Shape
 {
     public:
         Circle();
-
-    protected:
+        double getArea(double radius);
+        double getPerimeter(double radius);
 
     private:
 };
+
+
+

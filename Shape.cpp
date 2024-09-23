@@ -1,6 +1,12 @@
 #include "Shape.hpp"
 
-Shape::Shape()
-{
-    //ctor
+Shape::Shape() {
+
+}
+
+double Shape::getArea(){
+
+}
+
+double Shape::getPerimeter() {
 }

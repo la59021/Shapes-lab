@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1727127269 source:c:\users\legom\documents\code\repos\shapes-lab\shape.cpp
+	"Shape.hpp"
+
+1727127267 c:\users\legom\documents\code\repos\shapes-lab\shape.hpp
+
+1727127360 source:c:\users\legom\documents\code\repos\shapes-lab\circle.cpp
+	"Circle.hpp"
+
+1727127269 c:\users\legom\documents\code\repos\shapes-lab\circle.hpp
+	<Shape.hpp>
+
+1727127267 c:\users\legom\documents\code\repos\shapes-lab\\shape.hpp
+
