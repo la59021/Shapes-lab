@@ -1,12 +1,14 @@
-#include <iostream>
-using namespace std;
+#include "RightTriangle.hpp"
+#include <cmath>
 
-
-int main() {
-	return 0;
-}#include "RightTriangle.hpp"
-
-RightTriangle::RightTriangle()
-{
+RightTriangle::RightTriangle() {
     //ctor
+}
+
+double getArea(double width, double height) {
+    return .5*width*height;
+}
+
+double getPerimeter(double width, double height) {
+    return width+height+(sqrt(width*width+height*height));
 }

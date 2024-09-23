@@ -1,12 +1,12 @@
 #include <Shape.hpp>
 
 
-class Rectangle : public Shape
-{
+class Rectangle : public Shape {
     public:
         Rectangle();
-
-    protected:
+        double getArea(double width, double height);
+        double getPerimeter(double width, double height);
 
     private:
+
 };

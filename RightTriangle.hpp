@@ -1,12 +1,11 @@
 #include <Shape.hpp>
 
 
-class RightTriangle : public Shape
-{
+class RightTriangle : public Shape {
     public:
         RightTriangle();
-
-    protected:
+        double getArea(double width, double height);
+        double getPerimeter(double width, double height);
 
     private:
 };
