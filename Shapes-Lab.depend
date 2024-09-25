@@ -1,25 +1,6 @@
 # depslib dependency file v1.0
-1727127269 source:c:\users\legom\documents\code\repos\shapes-lab\shape.cpp
-	"Shape.hpp"
-
-1727127267 c:\users\legom\documents\code\repos\shapes-lab\shape.hpp
-
-1727127360 source:c:\users\legom\documents\code\repos\shapes-lab\circle.cpp
-	"Circle.hpp"
-
-1727127269 c:\users\legom\documents\code\repos\shapes-lab\circle.hpp
-	<Shape.hpp>
-
-1727127267 c:\users\legom\documents\code\repos\shapes-lab\\shape.hpp
-
-1727127365 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
+1727287511 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
 	<iostream>
 	<cassert>
-	"Circle.hpp"
-
-1727127758 source:c:\users\legom\documents\code\repos\shapes-lab\rectangle.cpp
-	"Rectangle.hpp"
-
-1727127758 c:\users\legom\documents\code\repos\shapes-lab\rectangle.hpp
-	<Shape.hpp>
+	<cmath>
 
