@@ -24,6 +24,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.hpp" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.hpp" />
+		<Unit filename="RightTriangle.cpp" />
+		<Unit filename="RightTriangle.hpp" />
+		<Unit filename="Shape.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
