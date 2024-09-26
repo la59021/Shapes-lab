@@ -26,6 +26,7 @@
 		</Compiler>
 		<Unit filename="Circle.cpp" />
 		<Unit filename="Circle.hpp" />
+		<Unit filename="IncludeAllShapes.cpp" />
 		<Unit filename="IncludeAllShapes.hpp" />
 		<Unit filename="Rectangle.cpp" />
 		<Unit filename="Rectangle.hpp" />

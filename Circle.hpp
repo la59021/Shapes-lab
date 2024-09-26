@@ -5,6 +5,7 @@ class Circle : public Shape {
         Circle(double rad);
         double getArea();
         double getPerimeter();
+        std::string getName();
 
     private:
         double radius;

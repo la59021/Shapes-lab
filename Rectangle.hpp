@@ -7,12 +7,9 @@ class Rectangle : public Shape {
         Rectangle(double w, double h);
         double getArea();
         double getPerimeter();
+        std::string getName();
         double width;
         double height;
-
-    private:
-
-
 };
 
 #endif // RECTANGLE_HPP_INCLUDED

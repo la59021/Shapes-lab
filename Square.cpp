@@ -1,8 +1,11 @@
 #include "Square.hpp"
+using namespace std;
 
 Square::Square(double w) : Rectangle(w, w) {
-    Rectangle(w, w);
-    //super()
     width = w;
     height = w;
+}
+
+string Square::getName() {
+    return "Square";
 }

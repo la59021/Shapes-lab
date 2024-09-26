@@ -5,6 +5,7 @@
 class Square : public Rectangle{
     public:
         Square(double w);
+        std::string getName();
 };
 
 #endif // SQUARE_HPP

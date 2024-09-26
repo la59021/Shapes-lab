@@ -5,6 +5,7 @@ class RightTriangle : public Shape {
         RightTriangle(double w, double h);
         double getArea();
         double getPerimeter();
+        std::string getName();
 
     private:
         double width;
