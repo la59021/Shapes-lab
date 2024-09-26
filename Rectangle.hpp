@@ -1,3 +1,5 @@
+#ifndef RECTANGLE_HPP_INCLUDED
+#define RECTANGLE_HPP_INCLUDED
 #include "Shape.hpp"
 
 class Rectangle : public Shape {
@@ -5,9 +7,12 @@ class Rectangle : public Shape {
         Rectangle(double w, double h);
         double getArea();
         double getPerimeter();
+        double width;
+        double height;
 
     private:
-        int width;
-        int height;
+
 
 };
+
+#endif // RECTANGLE_HPP_INCLUDED

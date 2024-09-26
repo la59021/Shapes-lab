@@ -1,11 +1,8 @@
 # depslib dependency file v1.0
-1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
+1727300429 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
 	<iostream>
 	<cassert>
-	<cmath>
-	"Circle.hpp"
-	"Rectangle.hpp"
-	"RightTriangle.hpp"
+	"IncludeAllShapes.hpp"
 
 1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\circle.cpp
 	"Circle.hpp"
@@ -16,10 +13,10 @@
 1727298294 c:\users\legom\documents\code\repos\shapes-lab\shape.hpp
 	<cmath>
 
-1727298131 c:\users\legom\documents\code\repos\shapes-lab\rectangle.hpp
+1727300499 c:\users\legom\documents\code\repos\shapes-lab\rectangle.hpp
 	"Shape.hpp"
 
-1727298170 c:\users\legom\documents\code\repos\shapes-lab\righttriangle.hpp
+1727300499 c:\users\legom\documents\code\repos\shapes-lab\righttriangle.hpp
 	"Shape.hpp"
 
 1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\righttriangle.cpp
@@ -27,4 +24,16 @@
 
 1727298294 source:c:\users\legom\documents\code\repos\shapes-lab\rectangle.cpp
 	"Rectangle.hpp"
+
+1727299945 source:c:\users\legom\documents\code\repos\shapes-lab\square.cpp
+	"Square.hpp"
+
+1727300294 c:\users\legom\documents\code\repos\shapes-lab\square.hpp
+	"Rectangle.hpp"
+
+1727299653 c:\users\legom\documents\code\repos\shapes-lab\includeallshapes.hpp
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"RightTriangle.hpp"
+	"Square.hpp"
 

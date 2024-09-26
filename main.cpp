@@ -16,11 +16,18 @@ int main() {
     Circle circle(1.32);
     Rectangle rectange(1.5, 6.2);
     RightTriangle rightTriangle(1.4, 1.8);
+    Square square(1.4);
+    cout << "Circle:" << endl;
     cout << circle.getArea() << endl;
     cout << circle.getPerimeter() << endl;
+    cout << "Rectangle:" << endl;
     cout << rectange.getArea() << endl;
     cout << rectange.getPerimeter() << endl;
+    cout << "Right Triangle:" << endl;
     cout << rightTriangle.getArea() << endl;
     cout << rightTriangle.getPerimeter() << endl;
+    cout << "Square:" << endl;
+    cout << square.getArea() << endl;
+    cout << square.getPerimeter() << endl;
     return 0;
 }

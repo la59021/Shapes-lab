@@ -4,7 +4,7 @@
 #include "Circle.hpp"
 #include "Rectangle.hpp"
 #include "RightTriangle.hpp"
-//#include "Square.hpp"
+#include "Square.hpp"
 //#include "IsocelesRightTriangle"
 
 
