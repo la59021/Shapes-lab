@@ -1,4 +1,5 @@
 #include "RightTriangle.hpp"
+using namespace std;
 
 RightTriangle::RightTriangle(double w, double h) {
     width = w;
@@ -10,4 +11,8 @@ double RightTriangle::getArea() {
 }
 double RightTriangle::getPerimeter() {
     return width + height + (sqrt(width * width + height * height));
+}
+
+string RightTriangle::getName() {
+    return "Right Triangle";
 }
