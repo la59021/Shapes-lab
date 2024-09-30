@@ -1,30 +1,40 @@
 # depslib dependency file v1.0
-1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
+1727386429 source:c:\users\legom\documents\code\repos\shapes-lab\main.cpp
 	<iostream>
 	<cassert>
+	"IncludeAllShapes.hpp"
+
+1727385958 source:c:\users\legom\documents\code\repos\shapes-lab\circle.cpp
+	"Circle.hpp"
+
+1727385958 c:\users\legom\documents\code\repos\shapes-lab\circle.hpp
+	"Shape.hpp"
+
+1727385958 c:\users\legom\documents\code\repos\shapes-lab\shape.hpp
 	<cmath>
+	<iostream>
+
+1727386027 c:\users\legom\documents\code\repos\shapes-lab\rectangle.hpp
+	"Shape.hpp"
+
+1727385958 c:\users\legom\documents\code\repos\shapes-lab\righttriangle.hpp
+	"Shape.hpp"
+
+1727386443 source:c:\users\legom\documents\code\repos\shapes-lab\righttriangle.cpp
+	"RightTriangle.hpp"
+
+1727386041 source:c:\users\legom\documents\code\repos\shapes-lab\rectangle.cpp
+	"Rectangle.hpp"
+
+1727386362 source:c:\users\legom\documents\code\repos\shapes-lab\square.cpp
+	"Square.hpp"
+
+1727385971 c:\users\legom\documents\code\repos\shapes-lab\square.hpp
+	"Rectangle.hpp"
+
+1727385301 c:\users\legom\documents\code\repos\shapes-lab\includeallshapes.hpp
 	"Circle.hpp"
 	"Rectangle.hpp"
 	"RightTriangle.hpp"
-
-1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\circle.cpp
-	"Circle.hpp"
-
-1727298096 c:\users\legom\documents\code\repos\shapes-lab\circle.hpp
-	"Shape.hpp"
-
-1727298294 c:\users\legom\documents\code\repos\shapes-lab\shape.hpp
-	<cmath>
-
-1727298131 c:\users\legom\documents\code\repos\shapes-lab\rectangle.hpp
-	"Shape.hpp"
-
-1727298170 c:\users\legom\documents\code\repos\shapes-lab\righttriangle.hpp
-	"Shape.hpp"
-
-1727298016 source:c:\users\legom\documents\code\repos\shapes-lab\righttriangle.cpp
-	"RightTriangle.hpp"
-
-1727298294 source:c:\users\legom\documents\code\repos\shapes-lab\rectangle.cpp
-	"Rectangle.hpp"
+	"Square.hpp"
 

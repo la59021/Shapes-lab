@@ -26,11 +26,15 @@
 		</Compiler>
 		<Unit filename="Circle.cpp" />
 		<Unit filename="Circle.hpp" />
+		<Unit filename="IncludeAllShapes.cpp" />
+		<Unit filename="IncludeAllShapes.hpp" />
 		<Unit filename="Rectangle.cpp" />
 		<Unit filename="Rectangle.hpp" />
 		<Unit filename="RightTriangle.cpp" />
 		<Unit filename="RightTriangle.hpp" />
 		<Unit filename="Shape.hpp" />
+		<Unit filename="Square.cpp" />
+		<Unit filename="Square.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
