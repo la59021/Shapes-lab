@@ -5,11 +5,10 @@
 #include "Rectangle.hpp"
 #include "RightTriangle.hpp"
 #include "Square.hpp"
-//#include "IsocelesRightTriangle"
+#include "IsocelesRightTriangle"
 
 class IncludeAllShapes {
     public:
         void printAreaToScreen(Shape *s);
 };
-
 #endif // INCLUDEALLSHAPES_HPP_INCLUDED
