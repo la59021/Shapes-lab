@@ -1,12 +1,3 @@
-// 1.) Update your program with a new concrete class called Square. Square should inherit its behavior from the Rectangle class. You may or may not need to overwrite getArea() and getPerimeter().
-// 2.) Update your program with a new concrete class called IsocelesRightTriangle. IsoscelesRightTriangle should inherit its behavior from the RightTriangle class. You may or may not need to overwrite getArea() and getPerimeter().
-// 3.) Write a function called "void printAreaToScreen(Shape *s)" which takes a shape object and then prints out a nice message which includes the name and area of the shape. You should be able to use it with all of the shapes that you created!
-// 4.) Test each of the classes in a main program via assert statements.
-// 5.) Submit your code to GitHub and set up a Pull Request
-// 6.) Have your partner review / approve your code.
-// 7.) Merge in the changes.
-
-
 #include <iostream>
 #include <cassert>
 #include "IncludeAllShapes.hpp"
@@ -25,15 +16,15 @@ int main() {
     Square square(1.4);
     double squarePerimeter = 4 * 1.4;
     double squareArea = pow(1.4, 2);
-//    IsocelesRightTriangle isocelesRightTriangle(1.5, 7.8);
-//    double isocelesRightTrianglePerimeter = 2 * 1.32 * 3.14;
-//    double isocelesRightTriangleArea = 3.14 * pow(1.32, 2);
-//    IncludeAllShapes includeAllShapes;
-//    includeAllShapes.printAreaToScreen(&circle);
-//    includeAllShapes.printAreaToScreen(&rectangle);
-//    includeAllShapes.printAreaToScreen(&rightTriangle);
-//    includeAllShapes.printAreaToScreen(&square);
-//    includeAllShapes.printAreaToScreen(&isocelesRightTriangle);cout << circle.getArea() << endl;
+    IsocelesRightTriangle isocelesRightTriangle(1.5, 7.8);
+    double isocelesRightTrianglePerimeter = 2 * 1.32 * 3.14;
+    double isocelesRightTriangleArea = 3.14 * pow(1.32, 2);
+    IncludeAllShapes includeAllShapes;
+    includeAllShapes.printAreaToScreen(&circle);
+    includeAllShapes.printAreaToScreen(&rectangle);
+    includeAllShapes.printAreaToScreen(&rightTriangle);
+    includeAllShapes.printAreaToScreen(&square);
+    includeAllShapes.printAreaToScreen(&isocelesRightTriangle);cout << circle.getArea() << endl;
     assert(circle.getArea() == circleArea);
     assert(circle.getPerimeter() == circlePerimeter);
     assert(rectangle.getArea() == rectangleArea);
@@ -42,7 +33,8 @@ int main() {
     assert(rightTriangle.getPerimeter() == rightTrianglePerimeter);
     assert(square.getArea() == squareArea);
     assert(square.getPerimeter() == squarePerimeter);
-//    assert(isocelesRightTriangle.getArea() == isocelesRightTrianglePerimeter );
-//    assert(isocelesRightTriangle.getPerimeter() == isocelesRightTrianglePerimeter);
+    assert(isocelesRightTriangle.getArea() == isocelesRightTrianglePerimeter );
+    assert(isocelesRightTriangle.getPerimeter() == isocelesRightTrianglePerimeter);
+    cout << "Passed all tests."
     return 0;
 }
